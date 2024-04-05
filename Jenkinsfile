@@ -22,6 +22,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "${params.GREETING}, we are building the ${params.BRANCH} branch."
+                echo "${params.GREETING}, we are building the ${params.BRANCH} branch."}
     }
 }
