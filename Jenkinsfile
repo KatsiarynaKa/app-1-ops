@@ -25,3 +25,5 @@ pipeline {
                 echo "${params.GREETING}, we are building the ${params.BRANCH} branch."}
     }
 }
+    }
+}
